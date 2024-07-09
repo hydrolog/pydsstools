@@ -105,3 +105,6 @@ pydsstools/src/core_heclib.c
 #################################
 API.MD
 *.html
+# pixi environments
+.pixi
+*.egg-info
