@@ -2,6 +2,7 @@
 [build-system]
 requires = [
     "setuptools",
+  #    "Cython >= 0.29.0",
     "Cython>=0.29.0,<3.0.0",
     "versioneer[toml]",
     #"numpy==1.16.4; python_version=='3.6'",
@@ -80,6 +81,7 @@ pydsstools = ['examples/*.py','examples/*.ds[cs]',
 [tool.distutils.build_ext]
 inplace = false
 
+
 [tool.versioneer]
 VCS = "git"
 style = "pep440"
@@ -100,6 +102,9 @@ default = { solve-group = "default" }
 test = { features = ["test"], solve-group = "default" }
 
 [tool.pixi.tasks]
+
+[tool.pixi.target.win-64]
+activation.scripts = ["setvars.bat"]
 
 [tool.pixi.dependencies]
 numpy = ">=2.0.0,<2.1"

@@ -71,61 +71,58 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="headers\ArgParse.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="headers\DSSAlbersInfo.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="headers\DSSAlbersInfoFlat.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="headers\DSSDataCompression.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="headers\DSSGlobalData.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="headers\DSSGrid.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="headers\DSSGrid_wrap.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="headers\DSSGrid_wrap.h">
+    <ClInclude Include="include\ArgParse.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="headers\DSSGridData.h">
+    <ClInclude Include="include\DSSAlbersInfo.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="headers\DSSGridInfo.h">
+    <ClInclude Include="include\DSSAlbersInfoFlat.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="headers\DSSGridInfoFlat.h">
+    <ClInclude Include="include\DSSDataCompression.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="headers\DSSHrapInfo.h">
+    <ClInclude Include="include\DSSGrid.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="headers\DSSHrapInfoFlat.h">
+    <ClInclude Include="include\DSSGrid_wrap.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="headers\DSSSpecifiedGridInfo.h">
+    <ClInclude Include="include\DSSGridData.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="headers\DSSSpecifiedGridInfoFlat.h">
+    <ClInclude Include="include\DSSGridInfo.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="headers\DssUtility.h">
+    <ClInclude Include="include\DSSGridInfoFlat.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="headers\EsriAsciiGrid.h">
+    <ClInclude Include="include\DSSHrapInfo.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="headers\hecdatetime.h">
+    <ClInclude Include="include\DSSHrapInfoFlat.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="headers\pch.h">
+    <ClInclude Include="include\DSSSpecifiedGridInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DSSSpecifiedGridInfoFlat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DssUtility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EsriAsciiGrid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HecDateTime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

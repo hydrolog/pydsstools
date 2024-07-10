@@ -6390,9 +6390,9 @@ packages:
   timestamp: 1705690081905
 - kind: pypi
   name: pydsstools
-  version: 0+untagged.177.g206cd7b.dirty
+  version: 0+untagged.178.gd86857f.dirty
   path: .
-  sha256: fdb64146a196022b00f751e760f802f4291c347adaac35d1a6b98091dc0413ea
+  sha256: a65aa2edb55fa64a3731eefc1dc793920e5962eda59c591bb14ceb5edccc669d
   requires_dist:
   - pandas
   - affine
