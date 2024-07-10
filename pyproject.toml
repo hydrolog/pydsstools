@@ -104,7 +104,7 @@ test = { features = ["test"], solve-group = "default" }
 [tool.pixi.tasks]
 
 [tool.pixi.target.win-64]
-activation.scripts = ["setvars.bat"]
+#activation.scripts = ["setvars.bat"]
 
 [tool.pixi.dependencies]
 numpy = ">=2.0.0,<2.1"
